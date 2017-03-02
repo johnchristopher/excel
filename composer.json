@@ -1,0 +1,21 @@
+{
+    "name": "johnchristopher/excel",
+    "description": "A collection of useful PHP functions to prettify hashes into an Excel file.",
+    "license": "MIT",
+    "authors": [{
+        "name": "Jean-Christophe Vanhalle",
+        "email": "jeanchristophe.vanhalle@gmail.com",
+        "role": "Developer",
+        "homepage": "http://johnchristopher.github.io/"
+    }],
+    "homepage": "https://github.com/johnchristopher/excel",
+    "require": {
+        "phpoffice/phpexcel": "1.8.1",
+        "johnchristopher/tools": "0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "JC\\": ""
+        }
+    }    
+}
